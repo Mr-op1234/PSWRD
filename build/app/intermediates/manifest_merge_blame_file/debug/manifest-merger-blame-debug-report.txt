@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mrop.app.pswrdultimate"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\debug\AndroidManifest.xml:6:5-66
+15-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\debug\AndroidManifest.xml:6:22-64
+16    <!-- Storage permissions for all Android versions -->
+17    <uses-permission
+17-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:3:5-80
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:3:22-77
+19        android:maxSdkVersion="32" />
+19-->[:file_picker] C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-35
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Special permission for Android 11+ to access all files -->
+20-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:4:5-81
+20-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:4:22-78
+21    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> <!-- Media permissions for Android 13+ -->
+21-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:7:5-82
+21-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:7:22-79
+22    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+22-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:10:5-76
+22-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:10:22-73
+23    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+23-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:11:5-75
+23-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:11:22-72
+24    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+24-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:12:5-75
+24-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:12:22-72
+25    <!--
+26 Required to query activities that can process text, see:
+27         https://developer.android.com/training/package-visibility and
+28         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+29
+30         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+31    -->
+32    <queries>
+32-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:52:5-57:15
+33        <intent>
+33-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:53:9-56:18
+34            <action android:name="android.intent.action.PROCESS_TEXT" />
+34-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:54:13-72
+34-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:54:21-70
+35
+36            <data android:mimeType="text/plain" />
+36-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:55:13-50
+36-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:55:19-48
+37        </intent>
+38        <intent>
+38-->[:file_picker] C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+39            <action android:name="android.intent.action.GET_CONTENT" />
+39-->[:file_picker] C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+39-->[:file_picker] C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+40
+41            <data android:mimeType="*/*" />
+41-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:55:13-50
+41-->C:\Users\Lenovo\AndroidStudioProjects\PSWRDULTIMATE\android\app\src\main\AndroidManifest.xml:55:19-48
+42        </intent>
+43    </queries>
+44
+45    <permission
+45-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3c3bcdac8b277b02acfd5cab0d4bc69e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+46        android:name="com.mrop.app.pswrdultimate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+46-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3c3bcdac8b277b02acfd5cab0d4bc69e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+47        android:protectionLevel="signature" />
+47-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3c3bcdac8b277b02acfd5cab0d4bc69e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+48
+49    <uses-permission android:name="com.mrop.app.pswrdultimate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+49-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3c3bcdac8b277b02acfd5cab0d4bc69e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+49-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3c3bcdac8b277b02acfd5cab0d4bc69e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+50
+51    <application
+52        android:name="android.app.Application"
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.13.1] C:\Users\Lenovo\.gradle\caches\transforms-3\3c3bcdac8b277b02acfd5cab0d4bc69e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+54        android:debuggable="true"
+55        android:extractNativeLibs="true"
+56        android:icon="@mipmap/ic_launcher"
+57        android:label="PSWRD"
+58        android:requestLegacyExternalStorage="true" >
+59        <activity
+60            android:name="com.mrop.app.pswrdultimate.MainActivity"
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+62            android:exported="true"
+63            android:hardwareAccelerated="true"
+64            android:launchMode="singleTop"
+65            android:taskAffinity=""
+66            android:theme="@style/LaunchTheme"
+67            android:windowSoftInputMode="adjustResize" >
+68
+69            <!--
+70                 Specifies an Android theme to apply to this Activity as soon as
+71                 the Android process has started. This theme is visible to the user
+72                 while the Flutter UI initializes. After that, this theme continues
+73                 to determine the Window background behind the Flutter UI.
+74            -->
+75            <meta-data
+76                android:name="io.flutter.embedding.android.NormalTheme"
+77                android:resource="@style/NormalTheme" />
+78
+79            <intent-filter>
+80                <action android:name="android.intent.action.MAIN" />
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+83            </intent-filter>
+84        </activity>
+85        <!--
+86             Don't delete the meta-data below.
+87             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+88        -->
+89        <meta-data
+90            android:name="flutterEmbedding"
+91            android:value="2" />
+92
+93        <uses-library
+93-->[androidx.window:window:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\08245ca9efc77d7089b8eb9a7a27595c\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+94            android:name="androidx.window.extensions"
+94-->[androidx.window:window:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\08245ca9efc77d7089b8eb9a7a27595c\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+95            android:required="false" />
+95-->[androidx.window:window:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\08245ca9efc77d7089b8eb9a7a27595c\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+96        <uses-library
+96-->[androidx.window:window:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\08245ca9efc77d7089b8eb9a7a27595c\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+97            android:name="androidx.window.sidecar"
+97-->[androidx.window:window:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\08245ca9efc77d7089b8eb9a7a27595c\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+98            android:required="false" />
+98-->[androidx.window:window:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\08245ca9efc77d7089b8eb9a7a27595c\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+99
+100        <provider
+100-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\46ce09c817bd6674b274862db2a9767a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\46ce09c817bd6674b274862db2a9767a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+102            android:authorities="com.mrop.app.pswrdultimate.androidx-startup"
+102-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\46ce09c817bd6674b274862db2a9767a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+103            android:exported="false" >
+103-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\46ce09c817bd6674b274862db2a9767a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+104            <meta-data
+104-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\46ce09c817bd6674b274862db2a9767a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\46ce09c817bd6674b274862db2a9767a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+106                android:value="androidx.startup" />
+106-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Lenovo\.gradle\caches\transforms-3\46ce09c817bd6674b274862db2a9767a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+109                android:value="androidx.startup" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+110        </provider>
+111
+112        <receiver
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+113            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+114            android:directBootAware="false"
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+115            android:enabled="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+116            android:exported="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+117            android:permission="android.permission.DUMP" >
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+119                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+122                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+125                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+128                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Lenovo\.gradle\caches\transforms-3\dd52b7f0cef6c6d08ba341ac48cf8af0\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+129            </intent-filter>
+130        </receiver>
+131    </application>
+132
+133</manifest>

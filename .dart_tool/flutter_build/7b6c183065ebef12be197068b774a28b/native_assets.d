@@ -1,0 +1,1 @@
+ C:\\Users\\Lenovo\\AndroidStudioProjects\\PSWRDULTIMATE\\.dart_tool\\flutter_build\\7b6c183065ebef12be197068b774a28b\\native_assets.yaml: 
